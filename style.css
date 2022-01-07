@@ -1,0 +1,87 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+#line{
+    border-left: dodgerblue solid;
+    border-width: 6px;
+    border-radius: 4px;
+}
+
+h1{
+    font-size: 50px;
+}
+.red{
+    color: crimson;
+}
+.flexible{
+    display: flex;
+    margin-bottom: 150px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 9%;
+}
+.half-width img{
+    width: 68%;
+
+}
+.explore-button{
+    text-decoration: none;
+   background-image: linear-gradient(rgb(0, 174, 255),violet);
+    padding: 10px 50px;
+    
+}
+#sec2{
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left 64px;
+    background-size:227px 227px;
+
+}
+#sec3{
+    background-image: url(images/shape-1.png) ;
+    background-repeat:no-repeat;
+    background-position:absolute;
+    background-size: 200px 200px;
+
+}
+#contact{
+   color: deepskyblue;
+   text-align: center;
+   font-family: fantasy;
+   font-size: 120px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+  }
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit] {background-color: #45a049;
+
+  }
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  #footer{
+      height: 140px;
+      background: cadetblue;
+  }
+  #f-text{
+      text-align: center;
+  }
