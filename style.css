@@ -6,6 +6,36 @@ body{
     border-width: 6px;
     border-radius: 4px;
 }
+#column-area{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 600%;
+}
+.box{
+    width: 17%;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 7%;
+    margin-right: 6%;
+    padding-left: 1%;
+    border-radius: 10%;
+}
+#mission{
+    background-image: linear-gradient(blue,skyblue);
+    text-align: center;
+}
+#vision{
+    background-image: linear-gradient(violet,pink); 
+    text-align: center; 
+}
+#goals{
+    background-image: linear-gradient(crimson,rgb(51, 255, 0)) ;
+    text-align: center;
+}
+.box img{
+    width: 40%;
+}
+
 
 h1{
     font-size: 50px;
@@ -41,7 +71,7 @@ h1{
 #sec3{
     background-image: url(images/shape-1.png) ;
     background-repeat:no-repeat;
-    background-position:absolute;
+    background-position: top 260px right 94px;
     background-size: 200px 200px;
 
 }
