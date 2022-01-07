@@ -76,12 +76,10 @@ h1{
 
 }
 #contact{
-   color: deepskyblue;
-   text-align: center;
-   font-family: fantasy;
-   font-size: 120px;
-}
-
+   color: rgb(112, 125, 129);
+   text-align: top right;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 60px;}
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
